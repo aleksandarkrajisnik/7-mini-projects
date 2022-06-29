@@ -1,0 +1,168 @@
+:root{
+    --orangetext: rgb(248, 166, 43);
+    --graytext:rgb(130, 129, 129);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: rgb(246, 242, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(246, 242, 242);
+    box-shadow: 1px 2px 5px rgb(198, 195, 195);
+}
+
+header h1{
+    color:var(--orangetext);
+    font-size: 3rem;
+}
+
+header h3{
+    color:var(--graytext);
+}
+
+.mini-menu{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.mini-menu button{
+    cursor: pointer;
+    background-color: var(--orangetext);
+    padding:10px 20px;
+    border:none;
+    margin:0 3px;
+    letter-spacing: 1px;
+}
+
+.mini-menu button:hover{
+    background:rgb(255, 132, 0);
+}
+
+.data-div{
+    padding-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 242, 242);
+    
+}
+
+.langDiv{
+    display: flex;
+    padding: 5px;
+}
+
+.langDiv h2{
+    width: 170px;
+    padding:0 20px;
+    color:rgb(76, 75, 75);
+}
+
+.slideHolder{
+    width: 100%;
+}
+
+.bar{
+    background-color: var(--orangetext);
+    height: 100%; 
+}
+
+.eng{
+    width: 91%;
+}
+
+.fra{
+    width: 45%;
+}
+
+.arab{
+    width:25%;
+}
+
+.esp{
+    width: 24%;
+}
+
+.por{
+    width: 9%;
+}
+
+.rus{
+    width: 9%;
+}
+
+.ned{
+    width: 8%;
+}
+
+.ger{
+    width: 7%;
+}
+
+.chi{
+    width: 5%;
+}
+
+.ser{
+    width: 4%;
+}
+
+.world{
+    width: 100%;
+}
+
+.china{
+    width: 95%;
+}
+
+.india{
+    width:90%; 
+}
+
+.usa{
+    width: 85%;
+}
+
+.brasil{
+    width: 76%;
+}
+
+.pakistan{
+    width: 68%;
+}
+
+.indonesia{
+    width:80%;
+}
+
+.nigeria{
+    width: 60%;
+}
+
+.bangladesh{
+    width: 50%;
+}
+
+.russia{
+    width: 45%;
+}
+
+.japan{
+    width: 24%;
+}
